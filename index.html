@@ -1,11 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to my website!</h1>
-    <h2> I am Karan Shah </h2>
-    <p>This is a simple example of a website created using GitHub Pages.</p>
+
+<header>
+    <h1>Welcome to Karan's Website!</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Karan, a web developer and technology enthusiast. I love creating websites and working on exciting projects. In this website, you'll find some of my work and how to get in touch with me!</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Project 1:</strong> A personal blog website built with HTML, CSS, and JavaScript.</li>
+        <li><strong>Project 2:</strong> A weather app that fetches data using a public API and displays it dynamically.</li>
+        <li><strong>Project 3:</strong> A to-do list app created with React.js to manage daily tasks.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you want to get in touch, feel free to <a href="karan88shah@gmail.com">send me an email</a> or reach out on <a href="https://www.linkedin.com/in/karan">LinkedIn</a>.</p>
+</section>
+
+<footer>
+    <p>© 2024 Karan Shah. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
